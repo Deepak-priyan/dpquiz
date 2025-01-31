@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="score.css">
+</head>
+<body>
+  
+    <div class="details">
+        
+      <select class="deptdiv subdetails" style="order: 2;" >
+        <option  style="background-color:rgb(220, 212, 212);color: black;">Year</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">I Year</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">II Year</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">III Year</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">IV Year</option>
+      </select>
+
+      <select class="deptdiv subdetails" style="order: 1;">
+        <option  style="background-color:rgb(220, 212, 212);color: black;">Dept</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">IT</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">ADS</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">CSE </option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">CSD</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">AIML</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">MECH</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">CVIL</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">ECE</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">EEE</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">MCT</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">BME</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">FT</option>
+    </select>
+    <select class="deptdiv subdetails" >
+      <option  style="background-color:rgb(220, 212, 212);color: black;">SECTION</option>
+      <option style="background-color:rgb(220, 212, 212);color: black;">A</option>
+      <option style="background-color:rgb(220, 212, 212);color: black;">B</option>
+      <option style="background-color:rgb(220, 212, 212);color: black;">C</option>
+      <option style="background-color:rgb(220, 212, 212);color: black;">D</option>
+    </select>
+      <input class="subdiv subdetails" type="text" placeholder="Course Code" style="border-style: none; border-color: white; order: 3;"/>
+       
+    <select class="deptdiv subdetails" style="order: 4;">
+        <option  style="background-color:rgb(220, 212, 212);color: black;">Unit</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">Unit 1</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">Unit 2</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">Unit 3</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">Unit 4</option>
+        <option style="background-color:rgb(220, 212, 212);color: black;">Unit 5</option>
+    </select>
+    <button class="deptdiv subdetails" style="border-style: none; order: 5; " onclick=showscore()> SUBMIT</button>
+   </div>
+
+
+  <div class="detsec details scoredetsec">
+      <div class="subdetsec subdetails"><p>Quzi 1</p></div>
+      <div class="subdetsec subdetails"><p>Date : 30/01/2025</p></div>
+  </div>
+
+
+  <div class="detthi scoredetthi">
+
+      <div class="subdetthi">
+          <p>Register No</p>
+          <p>Mark</p>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/>
+          <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/> <input/>
+
+  </div>
+    <script>
+      function showscore(){
+        const quiz=document.querySelector('.scoredetsec')
+        quiz.style.display='flex';
+        const score=document.querySelector('.detthi')
+        score.style.display='flex';
+        
+      }
+    </script>
+</body>
+</html>
