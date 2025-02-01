@@ -44,8 +44,8 @@
   }
   
   .subdetthi{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    flex-direction: column;
     width: 60%;
     align-items: center;
     justify-content: center;
@@ -70,6 +70,50 @@
   }
   input{
     min-width: 20px;
+  }
+.score_details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    
+    font-size:20px;
+    
+  }
+  .register_no,.mark{
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;
+    padding: 2px;
+    background-color: white;
+    
+    
+  }
+  .register_no{
+    width: 70%;
+
+  }
+  .mark{
+    width:30%;
+  }
+  @media(max-width:430px){
+    .score_details{
+      font-size: 10px;
+    }
+    .subdetails{
+      font-size: 15px;
+    }
+    
+  }
+  @media(max-width:340px){
+    .score_details{
+      font-size: 7px;
+    }
+    .subdetails{
+      font-size: 12px;
+    }
+    
   }
   
  
